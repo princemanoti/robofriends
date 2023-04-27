@@ -40,10 +40,13 @@ class App extends Component {
               <CardList robots={filteredRobots} />
           </ErrorBoundary>
         </Scroll>
+        <footer>
+          &copy; Festus Langat K 2023
+        </footer>
       </div>
     );
  }
-   
+   s
 }
 
 export default App;
